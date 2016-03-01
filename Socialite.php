@@ -1,4 +1,4 @@
-<?php namespace Koodzo\Packages\Socialite;
+<?php namespace App\Socialite;
 
 use Laravel\Socialite\SocialiteManager;
 
