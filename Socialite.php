@@ -8,6 +8,6 @@ class Socialite extends SocialiteManager
     {
         $config = $this->app['config']['services.pinterest'];
 
-        return $this->buildProvider(Pinterest::class, $config);
+        return $this->buildProvider(PinterestProvider::class, $config);
     }
 }
