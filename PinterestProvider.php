@@ -44,9 +44,6 @@ class Pinterest extends AbstractProvider implements ProviderInterface
         $url = 'https://api.pinterest.com/v1/me';
 
         $response = $this->getHttpClient()->get($url, [
-            'headers' => [
-                'x-li-format' => 'json',
-            ],
             'query' => [
                 'access_token' => $token,
                 'fields' => implode(',', $this->fields)
