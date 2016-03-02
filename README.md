@@ -1,5 +1,7 @@
 # Extending Laravel's Socialite
 
+![Bicycle](https://github.com/JaffParker/Extending-Laravel-Socialite/blob/master/bicycle.png "Reinventing the bicycle here")
+
 When I first saw Laravel's socialite, I thought right away that it's going to simplify things SO MUCH. The only problem was that it had just few providers, did not even cover everything I needed. I thought with time they would add more, but that does not seem to be the case.
 
 So once I just had to dive into the package and see how to extend it manually. And what do you know! It's actually extremely simple and requires a disturbingly little amount of efforts.
