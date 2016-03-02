@@ -72,4 +72,11 @@ class Pinterest extends AbstractProvider implements ProviderInterface
             'avatar_original' => null,
         ]);
     }
+    
+    protected function getTokenFields($code)
+    {
+        return array_merge(parent::getTokenFields($code), [
+            'grant_type' => 'authorization_code',
+        ]);
+    }
 }
